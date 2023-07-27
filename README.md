@@ -30,7 +30,7 @@ P/S: When you enter `0000`, the API will return a `301 Moved Permanently` to ric
 
 ### Return:
 There're two fields:
-- `Some florida man did one that day` -> String | will return either `"true"` or `"false"`.
+- `Some florida man did one that day` -> String | will return either `"true"` or `"no idea"`.
 - `This is what he did` -> String | will return a title for an article only when you're typing the right date.
 ```BrainFuck
 {
