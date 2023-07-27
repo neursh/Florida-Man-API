@@ -21,6 +21,9 @@ P/S: When you enter `0000`, the API will return a `301 Moved Permanently` to ric
         P/S: It's my project so the default format is now based on the format that I've mentioned above.
           <details><summary>Spoilers</summary>
           P/S: Sorry for the confusion, the first P/S is.
+            <details><summary>Spoilers</summary>
+            P/S: Sorry for another confusion, there's no random, each day only has one story.
+            </details>
           </details>
         </details>
       </details>
