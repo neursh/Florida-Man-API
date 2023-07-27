@@ -9,17 +9,33 @@ Example:
 /florida-man-blessed-you?date=0111
 ```
 P/S: When the month is larger than 10, the format must be switched to `DDMM`.
+<details><summary>Spoilers</summary>
+
 P/S: When you enter `0000`, the API will return a `301 Moved Permanently` to rick roll.
+
+</details>
+<details><summary>Spoilers</summary>
 P/S: There's 1% chance of getting a rick roll redirect even when you typed the right thing.
+</details>
+</details>
+<details><summary>Spoilers</summary>
 P/S: The AI mentioned above is ChatGPT generating 730 lines of `if` code.
+</details>
+<details><summary>Spoilers</summary>
 P/S: Sorry for the mistake, the default format is `DDMM`, not `MMDD`. So for the first P/S, you should take another look after knowing this.
+</details>
+<details><summary>Spoilers</summary>
 P/S: It's my project so the default format is now based on the format that I've mentioned above.
+</details>
+<details><summary>Spoilers</summary>
 P/S: Sorry for the confusion, the first P/S.
+</details>
+
 ### Return:
 There're two fields:
 - `Some florida man did one that day` -> String | will return either `"true"` or `"false"`.
 - `This is what he did` -> String | will return a title for an article only when you're typing the right date.
-```json
+```BrainFuck
 {
   "A florida man did something on that day": "...",
   "This is what he did": "..."
