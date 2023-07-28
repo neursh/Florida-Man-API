@@ -22,7 +22,7 @@ P/S: When you enter `0000`, the API will return a `301 Moved Permanently` to ric
           <details><summary>Spoilers</summary>
           P/S: Sorry for the confusion, the first P/S is.
             <details><summary>Spoilers</summary>
-            P/S: Sorry for another confusion, there's no random, each day only has 5 stories.
+            P/S: Sorry for another confusion, there's no random, each day only has 1 story.
             </details>
           </details>
         </details>
