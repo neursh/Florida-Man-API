@@ -1,5 +1,5 @@
 ## | The Florida Man API - Knows what a Florida man would do on a specific day. |
-This project uses AI to power.
+This project uses AI.
 ### Only one API, this API will return a random event based on the day provided in this default format `MMDD`.
 ```
 /florida-man-blessed-you?date=MMDD
@@ -14,7 +14,7 @@ P/S: When you enter `0000`, the API will return a `301 Moved Permanently` to ric
   <details><summary>Spoilers</summary>
   P/S: There's 1% chance of getting a rick roll redirect even when you typed the right thing.
     <details><summary>Spoilers</summary>
-    P/S: The AI mentioned above is ChatGPT generating 730 lines of `if` code.
+    P/S: The AI mentioned above is ChatGPT generating JSON format from the data provided.
       <details><summary>Spoilers</summary>
       P/S: Sorry for the mistake, the default format is `DDMM`, not `MMDD`. So for the first P/S, you should take another look after knowing this.
         <details><summary>Spoilers</summary>
