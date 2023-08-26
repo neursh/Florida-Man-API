@@ -71,5 +71,4 @@ async def florida_man_did_something_on_that_day_main_api_yup_this_is_the_main_ap
             "This is what he did": ""
         }, 303
 
-if __name__ == "__main__":
-    asyncio.run(serve(fAPI, Config()))
+asyncio.run(serve(fAPI, Config()))
