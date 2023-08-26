@@ -22,10 +22,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-import asyncio, fDate
+import fDate
 from quart import Quart, request
-from hypercorn.config import Config
-from hypercorn.asyncio import serve
 
 fAPI = Quart(__name__)
 
@@ -70,6 +68,3 @@ async def florida_man_did_something_on_that_day_main_api_yup_this_is_the_main_ap
             "A florida man did something on that day": "no idea",
             "This is what he did": ""
         }, 303
-
-if __name__ == "__main__":
-    asyncio.run(serve(fAPI, Config()))
