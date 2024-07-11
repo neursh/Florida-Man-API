@@ -1,4 +1,7 @@
 ## | The Florida Man API - Knows what a Florida man would do on a specific day. |
+
+https://florida-man-api.neurs.workers.dev
+
 This project uses AI.
 ### Only one API, this API will return a random event based on the day provided in this default format `MMDD`.
 ```
