@@ -396,7 +396,7 @@ export default {
         const uri = new URL(request.url);
         const date = uri.searchParams.get("date") ?? "0000";
         if (date === "0000" || Math.random().toFixed(2) === Math.random().toFixed(2)) {
-            return Response.redirect("https://www.youtube.com/watch?v=xvFZjo5PgG0", 301);
+            return Response.redirect("https://c.tenor.com/x8v1oNUOmg4AAAAd/tenor.gif", 301);
         }
 
         if (request.headers.get("User-Agent")) {
