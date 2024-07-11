@@ -35,7 +35,7 @@ P/S: When you enter `0000`, the API will return a `301 Moved Permanently` to ric
 </details>
 
 ### Return:
-There're two fields:
+There are two fields:
 - `Some florida man did one that day` -> String | will return either `"true"` or `"no idea"`.
 - `This is what he did` -> String | will return a title for an article only when you're typing the right date.
 ```BrainFuck
@@ -44,7 +44,7 @@ There're two fields:
   "This is what he did": "..."
 }
 ```
-There're some fields for headers you must follow:
+There are some fields for headers you must follow:
 - `User-Agent`: Who need this when everywhere is just bot DDoSing stuff? So if any of the request that contains anything in `User-Agent` will return the status code `400 Bad Request Mate`.
 - `Is-Birthday`: This serves no purpose at all, you can ignore it because this field is set default to `"false"`. When you set it to `"false"`, the API returns status `200 OK Bro` but there's no content in body, when you set to `"true"`, the API will return a `410 Gone`, I ain't gonna make you special on your birthday.
 - `Developer-Mode`: This will convert the result in this following pattern: String <- Base64 <- Base32 <- Base16 <- Base8 <- Binary (response has 2 a maximum of characters). Default: `"true"`. If set to `"false"`, the API will thinks that you've got skill issue and will return a `418 I'm a teapot`.
