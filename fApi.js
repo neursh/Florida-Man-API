@@ -395,7 +395,7 @@ export default {
     async fetch(request) {
         const uri = new URL(request.url);
         const date = uri.searchParams.get("date") ?? "0000";
-        if (date === "0000" || Math.random().toFixed(2) === Math.random().toFixed(2)) {
+        if (date === "0000" || Math.random().toFixed(2) === Math.random().toFixed(2) || uri.pathname !== "/florida-man-blessed-you") {
             return Response.redirect("https://c.tenor.com/x8v1oNUOmg4AAAAd/tenor.gif", 301);
         }
 
