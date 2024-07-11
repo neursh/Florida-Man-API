@@ -422,7 +422,7 @@ export default {
         }
 
         const whatHeDid = aDictContains366DaysThroughOutTheYearOnWhatAFloridaManAndWomanDidOnTheRequestedDay[date];
-        const response = `{"A florida man did something on that day": "${whatHeDid != null ? "true" : "no idea"}","This is what he did": ${whatHeDid}}`;
+        const response = `{"A florida man did something on that day": "${whatHeDid != null ? "true" : "no idea"}","This is what he did": "${whatHeDid}"}`;
         if (eotc === "true") {
             return new Response(response.slice(0, response.length / 2), { status: 303 });
         }
