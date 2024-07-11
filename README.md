@@ -3,15 +3,15 @@
 https://florida-man-api.neurs.workers.dev
 
 This project uses AI.
-### Only one API, this API will return a random event based on the day provided in this default format `MMDD`.
+### Only one API, this API will return a random event based on the day provided in this default format `md`.
 ```
-/florida-man-blessed-you?date=MMDD
+/florida-man-blessed-you?date=md
 ```
 Example:
 ```
-/florida-man-blessed-you?date=0111
+/florida-man-blessed-you?date=111
 ```
-P/S: When the month is larger than 10, the format must be switched to `DDMM`.
+P/S: When the month is larger than 10, the format must be switched to `dm`.
 <details><summary>Spoilers</summary>
 P/S: When you enter `0000`, the API will return a `301 Moved Permanently` to rick roll.
   <details><summary>Spoilers</summary>
@@ -19,7 +19,7 @@ P/S: When you enter `0000`, the API will return a `301 Moved Permanently` to ric
     <details><summary>Spoilers</summary>
     P/S: The AI mentioned above is ChatGPT generating JSON format from the data provided.
       <details><summary>Spoilers</summary>
-      P/S: Sorry for the mistake, the default format is `DDMM`, not `MMDD`. So for the first P/S, you should take another look after knowing this.
+      P/S: Sorry for the mistake, the default format is `dm`, not `md`. So for the first P/S, you should take another look after knowing this.
         <details><summary>Spoilers</summary>
         P/S: It's my project so the default format is now based on the format that I've mentioned above.
           <details><summary>Spoilers</summary>
