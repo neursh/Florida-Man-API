@@ -2,7 +2,6 @@
 
 https://florida-man-api.neurs.workers.dev
 
-This project uses AI.
 ### Only one API, this API will return a random event based on the day provided in this default format `md`.
 ```
 /florida-man-blessed-you?date=md
@@ -17,16 +16,13 @@ P/S: When you enter `0000`, the API will return a `301 Moved Permanently` to ric
   <details><summary>Spoilers</summary>
   P/S: There's 1% chance of getting a rick roll redirect even when you typed the right thing.
     <details><summary>Spoilers</summary>
-    P/S: The AI mentioned above is ChatGPT generating JSON format from the data provided.
+    P/S: Sorry for the mistake, the default format is `dm`, not `md`. So for the first P/S, you should take another look after knowing this.
       <details><summary>Spoilers</summary>
-      P/S: Sorry for the mistake, the default format is `dm`, not `md`. So for the first P/S, you should take another look after knowing this.
+      P/S: It's my project so the default format is now based on the format that I've mentioned above.
         <details><summary>Spoilers</summary>
-        P/S: It's my project so the default format is now based on the format that I've mentioned above.
+        P/S: Sorry for the confusion, the first P/S is.
           <details><summary>Spoilers</summary>
-          P/S: Sorry for the confusion, the first P/S is.
-            <details><summary>Spoilers</summary>
-            P/S: Sorry for another confusion, there's no random, each day only has 1 story.
-            </details>
+          P/S: Sorry for another confusion, there's no random, each day only has 1 story.
           </details>
         </details>
       </details>
